@@ -1,6 +1,4 @@
-# Arrays: Write a Fibonacci Using Closure
-
-Write a program that prints the number for 1 to 50, 
+# Write a program that prints the number for 1 to 50, 
  - for number multiple of 3 print fizz instead of a number
  - for numbers multiple of 5 print buzz, 
  - for numbers which are multiple of both 3 and 5 fizzbuzz.
