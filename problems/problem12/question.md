@@ -3,7 +3,7 @@
 ## Example
 
 ```
-Input: a = {-7, 1, 5, 2, -4, 3, 0}
+Input: a = [-7, 1, 5, 2, -4, 3, 0]
 Output: 3
 Explanation: 3 is an equilibrium index, because:
 a[0] + a[1] + a[2] = a[4] + a[5] + a[6]
