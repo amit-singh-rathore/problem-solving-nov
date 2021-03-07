@@ -1,4 +1,4 @@
-# Miscellaneous
+# Remove Duplicates
 
 Given a list remove duplicates preserving the order.
 

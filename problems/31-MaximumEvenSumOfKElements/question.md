@@ -1,4 +1,4 @@
-#  Integer Break
+#  Maximum Even sum of K elements
 Given an array of positive integers, find the maximum even sum for K elements from the array. If you can’t find one, return -1.
 
 ## Example
