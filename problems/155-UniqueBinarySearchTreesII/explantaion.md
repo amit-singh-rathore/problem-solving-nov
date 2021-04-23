@@ -1,3 +1,3 @@
 # Explanation
 
-We solve this using DP (Tabulation) --> Katalan number
+We solve this using simple recursion.
