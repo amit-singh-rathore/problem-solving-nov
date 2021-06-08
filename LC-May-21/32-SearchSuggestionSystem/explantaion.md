@@ -1,3 +1,3 @@
 ## Explanation
 
-We implement the solution using sorting and Binary search.
+We implement the solution using Binary search.
