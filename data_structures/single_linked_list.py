@@ -22,6 +22,12 @@ class SinglyLinkedList:
             linked_list_repr += f"->{str(curr_node)}"
             curr_node = curr_node.next_node
         return linked_list_repr
+    
+    def __iter__(self):
+        node = self.root
+        while node:
+            yield node
+            node = node.next
 
     def add(self, val):
         new_root_node = Node(val, next_node=self.root)
