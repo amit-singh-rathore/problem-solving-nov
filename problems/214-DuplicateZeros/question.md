@@ -1,4 +1,4 @@
-# 485. Max Consecutive Ones
+# 1089. Duplicate Zeros
 
 Given a fixed length array arr of integers, duplicate each occurrence of zero, shifting the remaining elements to the right.
 
