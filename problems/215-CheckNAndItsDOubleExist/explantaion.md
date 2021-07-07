@@ -1,3 +1,3 @@
 # Explanation
 
-This is similar to two sum problem.
+This is similar to Two-Sum problem.
