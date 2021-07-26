@@ -4,8 +4,8 @@ def fib():
     
     def next_item():
         nonlocal penultimate, previous
-        next_number = penultimate, previous
-        penultimate, previous = previous, penultimate
+        next_number = penultimate + previous
+        penultimate, previous = previous, next_number
         return next_number
         
     return next_item
@@ -14,4 +14,4 @@ fibonacci = fib()
 N = 10
 for i in range (2, N+1):
     number = fibonacci()
-    print( number, end=' ')
+    print( f"{number}", end=' ')
