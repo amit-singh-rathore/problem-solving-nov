@@ -1,18 +1,19 @@
 class Solution:
-    def mySqrt(self, x):
+    def mySqrt(self, x: int) -> int:
         if x < 2:
             return x
         
-        left, right = 2, x // 2
+        start, end = 2, x//2
         
-        while left <= right:
-            pivot = left + (right - left) // 2
-            num = pivot * pivot
-            if num > x:
-                right = pivot -1
-            elif num < x:
-                left = pivot + 1
-            else:
-                return pivot
+        while start <= end:
+            mid = start + (end-start)//2
             
-        return right
+            num = mid * mid
+            
+            if num > x:
+                end = mid - 1
+            elif num < x:
+                start = mid + 1
+            else:
+                return mid
+        return end
